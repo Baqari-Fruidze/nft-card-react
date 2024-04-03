@@ -1,0 +1,74 @@
+.container {
+  width: 350px;
+  background-color: #15263f;
+  border-radius: 15px;
+  padding: 24px 24px 32px;
+}
+.equilibium {
+  width: 100%;
+  border-radius: 10px;
+}
+.title {
+  color: white;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 24px;
+}
+.text {
+  color: #8bacd9;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 16px;
+}
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  border-bottom: 1px solid #2e405a;
+  padding-bottom: 24px;
+}
+.info-container div {
+  display: flex;
+  align-items: center;
+  gap: 6.5px;
+}
+.info-container div span {
+  font-size: 16px;
+  line-height: 20px;
+}
+.eth span {
+  color: #00fff8;
+  font-weight: 600;
+}
+.clock span {
+  font-weight: 400;
+  color: #8bacd9;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+.avatar img {
+  width: 33px;
+  height: 33px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.avatar p {
+  color: #8bacd9;
+  margin-left: 16px;
+  font-size: 15px;
+
+  font-weight: 400;
+}
+.avatar p span {
+  color: #fff;
+}
